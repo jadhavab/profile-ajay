@@ -5,28 +5,45 @@
     <meta name="viewport" content="width=head, initial-scale=1.0" />
     <title>Home</title>
     <style>
-    header { color: orange;background-color: gray; }
+      header span { background-color: rgb(72, 207, 72);
 
+        margin-right: 150px;
+        padding: 7px;
+      }
+      nav a {
+        margin-right: 40px;
+
+        text-decoration: none;
+      }
+
+      #homeLink {
+        margin-left: 10px;
+      }
+      footer a{ margin-right: 40px;
+        text-decoration: none;
+        background-color: aquamarine;
+        color: blue;
+      }
+      #link {margin-left: 200px;}
     </style>
   </head>
   <body>
     <!-- Header Section -->
     <header>
-      <span>
-        Name: Ajay Jadhav &nbsp;&nbsp;&nbsp;&nbsp; Mobile: 9028 2332 70
-        &nbsp;&nbsp;&nbsp;&nbsp; Email: abjadhav329@gmail.com</span
-      ></header>
+      <span>Name: Ajay Jadhav </span> <span>Mobile: 9028 2332 70</span>
+      <span> Email: abjadhav329@gmail.com</span>
+    </header>
     <hr />
     <!-- Navigation Section -->
     <nav>
-      <a href="home.html" target="mainFrame">HOME</a> &nbsp;&nbsp; &nbsp; &nbsp;
-      &nbsp;
-      <a href="techStack.html" target="mainFrame">TECH STACK</a> &nbsp;&nbsp;
-      &nbsp; &nbsp; &nbsp;
-      <a href="project.html" target="mainFrame">PROJECT</a> &nbsp;&nbsp; &nbsp;
+      <a href="home.html" target="mainFrame" id="homeLink">HOME</a>
+
+      <a href="techStack.html" target="mainFrame">TECH STACK</a>
+
+      <a href="project.html" target="mainFrame">PROJECT</a>
       &nbsp; &nbsp;
-      <a href="education.html" target="mainFrame">EDUCATION</a> &nbsp;&nbsp;
-      &nbsp; &nbsp; &nbsp;
+      <a href="education.html" target="mainFrame">EDUCATION</a>
+
       <a href="others.html" target="mainFrame">OTHERS</a>
     </nav>
     <hr />
@@ -43,13 +60,14 @@
     <footer>
       <a
         href=" https://in.linkedin.com/?src=go-pa&trk=sem-ga_campid.14650114788_asid.151761418307_crid.657403558721_kw.linkedin%20login_d.c_tid.kwd-12704335873_n.g_mt.e_geo.9300160&mcid=6844056167778418689&cid=&gclid=EAIaIQobChMI8vnbp_WLgwMVX6RmAh1p9wyfEAAYASAAEgLNj_D_BwE&gclsrc=aw.ds"
+        id=" link"
         >Linked IN</a
       >
-      &nbsp;&nbsp;&nbsp;&nbsp;
+
       <a
         href=" https://www.google.com/search?q=github&oq=&gs_lcrp=EgZjaHJvbWUqCQgDEEUYOxjCAzIJCAAQRRg7GMIDMgkIARBFGDsYwgMyCQgCEEUYOxjCAzIJCAMQRRg7GMIDMgkIBBBFGDsYwgMyCQgFEEUYOxjCAzIJCAYQRRg7GMIDMgkIBxBFGDsYwgPSAQkyNTY5ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8"
         >GitHub</a
-      >&nbsp;&nbsp;&nbsp;&nbsp;
+      >
       <a
         href=" https://www.naukri.com/registration/createAccount?othersrcp=23531&wExp=N&utm_source=google&utm_medium=cpc&utm_campaign=Brand&gad_source=1&gclid=EAIaIQobChMI5K_n6vWLgwMVKaRmAh0-MQbREAAYASAAEgLobPD_BwE&gclsrc=aw.ds"
         >Naukri</a
