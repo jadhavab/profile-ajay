@@ -10,32 +10,31 @@
       href="https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins&family=Roboto:wght@500;900&display=swap"
       rel="stylesheet"
     />
+
     <style>
-      .heading {
-        color: white;
-        background-color: blue;
-        font-family: font-family: 'Poppins', sans-serif;;
-      }
-      p {
-        text-transform: uppercase;
-      }
-      span {
-        color: red;
-      }
-      #li2 {
-        color: green;
-        background-color: yellow;
-        font-style: italic;
-        font-weight: bolder;
-      }
-      ul li {
-        border: 2px solid red;
-        padding: 15px;
-        list-style-type: square;
-      }
-      p,li { font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;}
-    
+            .heading {
+              color: white;
+              background-color: blue;
+              font-family: font-family: 'Poppins', sans-serif;;
+            }
+            p {
+              text-transform: uppercase;
+            }
+            span {
+              color: red;
+            }
+
+
+            ul li {
+              padding: 15px;
+              list-style-type: none;
+            }
+        
+             #list li::before{
+        content: "👉";}
+        #list li::selection { background-color: aqua;}
+            p,li { font-family: 'Poppins', sans-serif;
+      font-family: 'Roboto', sans-serif;}
     </style>
   </head>
   <body>
@@ -45,15 +44,13 @@ font-family: 'Roboto', sans-serif;}
       organization groeth
     </p>
     <h2 class="heading">ProfessionalSummery</h2>
-    <ul>
+    <ul id="list">
       <li>
         Having 5 years of experience i developing Single page web Applications
         usig <span> Agular 8 </span> ,HTML5, CSS3, Bootstrap 5, JavaScript, ES6,
         TypeScript
       </li>
-      <li id="li2">
-        Experience on working with version control system -GIT and GitHub
-      </li>
+      <li>Experience on working with version control system -GIT and GitHub</li>
       <li>Experience working with JIRA for user stories and bug trackig</li>
       <li>
         Strong Debugging &troubleshooting code experience using Chrom Devloper
